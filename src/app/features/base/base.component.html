@@ -1,0 +1,20 @@
+<div class="container-fuild">
+    <app-header></app-header> 
+    <hr />
+    <section>
+        <div class="row ma-section m-3">
+            <div class="col-2 ma-left-nav">
+                <app-left-nav [pageNameList]="pageNameList" (selectedPage)="goToPage($event)"></app-left-nav>
+            </div>
+            
+            <div class="col-10 ma-page-content">
+                <div class="m-2">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="ma-footer">
+        <app-footer></app-footer>
+    </footer>
+</div>

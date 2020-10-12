@@ -1,0 +1,11 @@
+<div>
+    <h4 class="ma-color-blue">{{productName}}</h4>
+
+    <div class="ml-4 mt-4" *ngFor="let product of productDetails">
+        <span class="col-3">
+            <img class="ma-product-image" src="{{product.imageUrl}}" alt="image" />
+            <div class="ma-body-heading pt-1">{{product.name}}</div>
+            <div class="pt-1">{{product.price | currency: 'INR'}}</div>
+        </span>
+    </div>
+</div>

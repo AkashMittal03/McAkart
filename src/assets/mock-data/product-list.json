@@ -1,0 +1,14 @@
+{
+    "list": [
+        {
+            "name": "McAfee® Total Protection",
+            "imageUrl": "./assets/images/total-protection-low.png",
+            "price": "50000"
+        },
+        {
+            "name": "McAfee LiveSafe",
+            "imageUrl": "assets/images/live_safe.webp",
+            "price": "25000"
+        }
+    ]
+}
